@@ -35,5 +35,4 @@ public class SaleController {
 		return new ResponseEntity<Map<Integer,SaleRecordDto>>(all, HttpStatus.FOUND);
 	}
 
-	
 }

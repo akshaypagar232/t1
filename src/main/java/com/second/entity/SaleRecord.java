@@ -19,6 +19,7 @@ import lombok.ToString;
 @Entity
 public class SaleRecord {
 
+	@Id
 	private Integer customerId;
 
 	private String customerName;

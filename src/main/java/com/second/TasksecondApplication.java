@@ -7,7 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TasksecondApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(TasksecondApplication.class, args);
+
+		System.out.println("project start ! ! !");
+
 	}
+
 
 }
